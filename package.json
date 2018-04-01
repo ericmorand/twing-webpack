@@ -1,0 +1,21 @@
+{
+  "name": "twing-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js && node dist/bundle.js && node dist/bundle-ts.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.6",
+    "@types/node": "^9.6.1",
+    "json-loader": "^0.5.7",
+    "ts-loader": "^3.5.0",
+    "twing": "^0.10.3",
+    "typescript": "^2.8.1",
+    "webpack": "^1.15"
+  }
+}
